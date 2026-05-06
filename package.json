@@ -7,9 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx tsc",
     "start": "node  dist/main.js",
-    "dev": "npx tsc && node  dist/main.js"
+    "dev": "npx tsc && node  dist/main.js",
+    "test": "vitest --run"
   },
-  "type": "module",
+  "type": "commonjs",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yakitoritrash/pokedex.git"
@@ -17,13 +18,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/yakitoritrash/pokedex/issues"
   },
   "homepage": "https://github.com/yakitoritrash/pokedex#readme",
   "devDependencies": {
     "@types/node": "^25.6.0",
-    "typescript": "^6.0.3"
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.5"
   }
 }
