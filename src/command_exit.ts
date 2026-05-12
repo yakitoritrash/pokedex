@@ -1,4 +1,4 @@
 export function commandExit() {
-  console.log("Closig the Pokedex...");
+  console.log("Closing the Pokedex...");
   process.exit(0);
 };
